@@ -1,0 +1,19 @@
+name = "WilliamsonTests"
+uuid = "ea577661-fb8c-4e01-a670-3e4caa561050"
+authors = ["Milan Kloewer <milankloewer@gmx.de> and contributors"]
+version = "0.1.0"
+
+[deps]
+DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+SpeedyWeather = "9e226e20-d153-4fed-8a5b-493def4f21a9"
+
+[compat]
+DocStringExtensions = "0.9.3"
+SpeedyWeather = "0.12.1"
+julia = "1.10, 1.11"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
